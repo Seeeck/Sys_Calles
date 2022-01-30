@@ -1,5 +1,5 @@
 Tecnologias utlizadas
-###-Laravel
+#Laravel
 ###-Php 7.4.3
 ###-React
 ###-MySql
