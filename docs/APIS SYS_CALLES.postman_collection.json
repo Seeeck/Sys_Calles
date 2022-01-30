@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "07ff164d-84ba-4c54-a490-f82a5a677433",
+		"name": "APIS SYS_CALLES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Guardar Calle",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre_calle\":\"Calle francisco #42\",\n    \"region_fk\":2,\n    \"provincia_fk\":2,\n    \"ciudad_fk\":2\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/saveCalle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"saveCalle"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar Regiones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/regiones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"regiones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar Provincias por Region",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/provincias?id_region=2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"provincias"
+					],
+					"query": [
+						{
+							"key": "id_region",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar Ciudades por Provincia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ciudades?id_provincia=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ciudades"
+					],
+					"query": [
+						{
+							"key": "id_provincia",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar calle",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_calle\":214,\n    \"nombre_calle\":\"Calle de update tet\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/updateCalle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"updateCalle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar calle",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_calle\":133\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/deleteCalle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"deleteCalle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar calles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/showCalle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"showCalle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MostrarCallePorNombre",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/showCalleByNombre?nombre=lampa",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"showCalleByNombre"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "lampa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
