@@ -1,9 +1,14 @@
 Tecnologias utlizadas
 #Laravel
-###-Php 7.4.3
-###-React
-###-MySql
+### -Php 7.4.3
+### -React
+### -MySql
 
+## General Info
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+### Screenshot
+![Image text](/path/to/the/screenshot.png)
 
 Instrucciones
 
