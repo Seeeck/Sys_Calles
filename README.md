@@ -1,11 +1,11 @@
-##Tecnologias utlizadas
+## Tecnologias utlizadas
 
-###### -Laravel
-###### -Php 7.4.3
-###### -React
-###### -MySql
+##### -Laravel
+##### -Php 7.4.3
+##### -React
+##### -MySql
 
-##Instrucciones
+## Instrucciones
 
 #### 1.Crear base de datos "SYS_CALLES" e insertar data incluida en docs/db_SYS_CALLES.sql
 #### 2.Configurar conexion en proyecto de laravel sys_calles_laravel/config/database.php
