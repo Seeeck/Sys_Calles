@@ -5,11 +5,6 @@
 ###### -React
 ###### -MySql
 
-## General Info
-***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-
-
 ##Instrucciones
 
 #### 1.Crear base de datos "SYS_CALLES" e insertar data incluida en docs/db_SYS_CALLES.sql
