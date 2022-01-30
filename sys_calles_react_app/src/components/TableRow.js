@@ -66,6 +66,7 @@ export const TableRow = (props) => {
   const resetSubmit = (e) => {
     setPostValid(false);
     setInputCalle("");
+    props.getCalles();
    
   };
 

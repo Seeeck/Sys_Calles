@@ -51,7 +51,7 @@ export const TableCalles = () => {
             
             {dataCalles?.calles?.data?.map((calle) => {
               
-              return <TableRow key={calle.id_calle} calle={calle} />
+              return <TableRow key={calle.id_calle} calle={calle} getCalles={getCalles} />
             })
             }
             
