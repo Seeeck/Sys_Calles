@@ -14,6 +14,7 @@
 #### 5.Abrir con la terminar la carpeta sys_calles_laravel y ejecutar "php artisan serve" en consola
 #### 6.Abrir sys_calles_react_app y ejecutar "npm install" seguido de "npm start"
 
+## Configuraciones
 
 #### Ubicacion de coleccion de apis en Postman =docs/APIS SYS_CALLES.postman_collection.json
 #### URL API = localhost:8000/api
