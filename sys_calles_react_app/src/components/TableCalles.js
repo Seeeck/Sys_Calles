@@ -43,7 +43,7 @@ export const TableCalles = () => {
               <th scope="col">Nombre</th>
               <th scope="col">Ciudad</th>
               <th scope="col">Provincia</th>
-              <th scope="col">Region</th>
+              <th scope="col">Región</th>
               <th scope="col">Accion</th>
             </tr>
           </thead>
