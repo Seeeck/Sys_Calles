@@ -15,7 +15,9 @@
 #### 6.Abrir sys_calles_react_app y ejecutar "npm install" seguido de "npm start"
 
 
+#### Ubicacion de coleccion de apis en Postman =docs/APIS SYS_CALLES.postman_collection.json
 #### URL API = localhost:8000/api
 #### Nombre de usuario BD por defecto:root 
 #### Contraseña de BD por defecto:rootpassword
+
  
