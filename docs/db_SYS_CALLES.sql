@@ -16,7 +16,7 @@ CREATE TABLE `CIUDAD` (
 );
 
 CREATE TABLE `CALLE` (
-  `id_calle` int AUTO_INCREMENT,
+  `id_calle` int PRIMARY KEY AUTO_INCREMENT,
   `nombre_calle` varchar(255),
   `ciudad_fk` int,
   `region_fk` int,
